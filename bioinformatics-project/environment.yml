@@ -1,0 +1,14 @@
+name: rnaseq-env
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - fastqc
+  - multiqc
+  - fastp
+  - hisat2
+  - samtools
+  - subread
+  - r-base
+  - bioconductor-deseq2
